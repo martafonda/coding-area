@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title><![CDATA[Hexo]]></title>
-  
+  <title><![CDATA[Marta Fonda]]></title>
+  <subtitle><![CDATA[Coding Area]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://blog.martafonda.com/"/>
   <updated>2016-02-02T21:40:43.000Z</updated>
   <id>http://blog.martafonda.com/</id>
   
   <author>
-    <name><![CDATA[John Doe]]></name>
+    <name><![CDATA[Marta Fonda]]></name>
     
   </author>
   
