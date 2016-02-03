@@ -11,6 +11,8 @@
     
     
     
+        <link rel="alternate" type="application/atom+xml" title="RSS" href="/atom.xml">
+    
     <meta name="description">
 <meta property="og:type" content="blog">
 <meta property="og:title" content="Hexo">
@@ -20,10 +22,13 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo">
 <meta name="twitter:description">
+<meta name="twitter:creator" content="@martafonda">
     
     
         
     
+    
+        <meta property="og:image" content="http://www.gravatar.com/avatar/d02ae0f170c26448ace3eea3382ce5dd?s=640"/>
     
     
     
@@ -33,6 +38,16 @@
     <!--STYLES END-->
     
     
+    <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?UA-73277607-1";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+    </script>
+
 </head>
 
     <body>
@@ -40,6 +55,8 @@
             <!-- Define author's picture -->
 
 
+    
+        
     
 
 <header id="header" data-behavior="2">
@@ -50,8 +67,10 @@
     
         
             <a  class="header-right-picture "
-                href="/#about">
+                href="/">
         
+        
+            <img class="header-picture" src="http://www.gravatar.com/avatar/d02ae0f170c26448ace3eea3382ce5dd?s=90"/>
         
         </a>
     
@@ -60,7 +79,16 @@
             <!-- Define author's picture -->
 
 
+    
+
 <nav id="sidebar" data-behavior="2">
+    
+        <div class="sidebar-profile">
+            <a href="/#about">
+                    <img class="sidebar-profile-picture" src="http://www.gravatar.com/avatar/d02ae0f170c26448ace3eea3382ce5dd?s=110"/>
+            </a>
+            <span class="sidebar-profile-name">John Doe</span>
+        </div>
     
     
         <ul class="sidebar-buttons">
@@ -125,21 +153,54 @@
                 </a>
         </li>
         
-            <li class="sidebar-button">
-                
-                    <a  class="sidebar-button-link "
-                         href="/#about"
-                        
-                    >
-                
-                    <i class="sidebar-button-icon fa fa-lg fa-question"></i>
-                    <span class="sidebar-button-desc">關於</span>
-                </a>
-        </li>
-        
     </ul>
     
         <ul class="sidebar-buttons">
+        
+            <li class="sidebar-button">
+                
+                    <a  class="sidebar-button-link " href="https://github.com/martafonda" target="_blank">
+                
+                    <i class="sidebar-button-icon fa fa-lg fa-github"></i>
+                    <span class="sidebar-button-desc">GitHub</span>
+                </a>
+        </li>
+        
+            <li class="sidebar-button">
+                
+                    <a  class="sidebar-button-link " href="http://stackoverflow.com/users/5741670/marta-fonda" target="_blank">
+                
+                    <i class="sidebar-button-icon fa fa-lg fa-stack-overflow"></i>
+                    <span class="sidebar-button-desc">Stack Overflow</span>
+                </a>
+        </li>
+        
+            <li class="sidebar-button">
+                
+                    <a  class="sidebar-button-link " href="https://twitter.com/martafonda" target="_blank">
+                
+                    <i class="sidebar-button-icon fa fa-lg fa-twitter"></i>
+                    <span class="sidebar-button-desc">Twitter</span>
+                </a>
+        </li>
+        
+            <li class="sidebar-button">
+                
+                    <a  class="sidebar-button-link " href="https://es.linkedin.com/in/martafonda" target="_blank">
+                
+                    <i class="sidebar-button-icon fa fa-lg fa-linkedin"></i>
+                    <span class="sidebar-button-desc">LinkedIn</span>
+                </a>
+        </li>
+        
+            <li class="sidebar-button">
+                
+                    <a  class="sidebar-button-link " href="mailto:martafondapascual@gmail.com" target="_blank">
+                
+                    <i class="sidebar-button-icon fa fa-lg fa-envelope-o"></i>
+                    <span class="sidebar-button-desc">Email</span>
+                </a>
+        </li>
         
     </ul>
     
@@ -245,11 +306,15 @@
         
 
 
+    
+
 <div id="about">
     <div id="about-card">
         <div id="about-btn-close">
             <i class="fa fa-remove"></i>
         </div>
+        
+            <img id="about-card-picture" src="http://www.gravatar.com/avatar/d02ae0f170c26448ace3eea3382ce5dd?s=110"/>
         
             <h4 id="about-card-name">John Doe</h4>
         
@@ -264,6 +329,12 @@
 
             </h5>
         
+        
+            <h5 id="about-card-location">
+                <i class="fa fa-map-marker"></i>
+                <br/>
+                Madrid
+            </h5>
         
     </div>
 </div>
